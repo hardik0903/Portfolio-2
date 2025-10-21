@@ -4,6 +4,8 @@ import { motion } from 'framer-motion';
 import { ArrowRight, Code2, Palette, Brain, Sparkles } from 'lucide-react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
+import { articles } from "../data/articles.js"; // <-- ADD THIS
+import ArticleCard from "../components/ArticleCard.jsx"; // <-- ADD THIS
 
 const Home = () => {
   useEffect(() => {
@@ -243,6 +245,31 @@ const Home = () => {
                     </Link>
                   </div>
                 </motion.div>
+              ))}
+            </div>
+          </motion.div>
+        </div>
+      </section>
+
+      {/* Articles Section */}
+      <section id="articles" className="py-20 px-4 sm:px-6 lg:px-8">
+        <div className="max-w-7xl mx-auto">
+          <motion.div
+            initial={{ opacity: 0, y: 50 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6 }}
+          >
+            <h2
+              className="font-['Press_Start_2P'] text-3xl sm:text-4xl mb-4 text-center"
+              style={{ textShadow: '0 0 15px #04CEFB' }}
+            >
+              My Articles
+            </h2>
+            <p className="text-[#04CEFB] font-['Press_Start_2P'] text-sm text-center mb-12">Featured Article</p>
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+              {articles.map((article, index) => (
+                <ArticleCard key={article.id} article={article} index={index} />
               ))}
             </div>
           </motion.div>

@@ -5,6 +5,7 @@ import TweetAnalyzer from './pages/TweetAnalyzer';
 import RAGChatBot from './pages/RAGChatBot';
 import Ascraa from './pages/Ascraa';
 import BrokerVerse from './pages/BrokerVerse';
+import ArticleDetails from './pages/ArticleDetails'; // <-- ADD THIS LINE
 import './App.css';
 
 function App() {
@@ -16,6 +17,9 @@ function App() {
         <Route path="/RAGChatBot" element={<RAGChatBot />} />
         <Route path="/Ascraa" element={<Ascraa />} />
         <Route path="/BrokerVerse" element={<BrokerVerse />} />
+
+        {/* ADD THIS NEW ROUTE FOR ARTICLES */}
+        <Route path="/article/:id" element={<ArticleDetails />} />
       </Routes>
     </BrowserRouter>
   );

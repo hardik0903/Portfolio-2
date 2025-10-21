@@ -97,7 +97,7 @@ const Home = () => {
               transition={{ delay: 0.6 }}
               className="text-gray-400 text-lg mb-4"
             >
-              VIT Mumbai | 2nd year student
+              3rd year student
             </motion.p>
             <motion.p
               initial={{ opacity: 0 }}
@@ -138,7 +138,7 @@ const Home = () => {
             <div className="relative w-full max-w-md mx-auto">
               <div className="absolute inset-0 bg-[#04CEFB]/20 blur-3xl rounded-full"></div>
               <img
-                src="/assets/profile.png"
+                src="/assets/profile2.gif"
                 alt="Hardik Pandey"
                 className="relative z-10 w-full h-auto rounded-2xl border-4 border-[#04CEFB] shadow-2xl shadow-[#04CEFB]/50"
               />
@@ -165,9 +165,9 @@ const Home = () => {
             <div className="bg-black/50 backdrop-blur-sm border border-[#04CEFB]/30 rounded-2xl p-8 sm:p-12">
               <p className="text-lg sm:text-xl text-gray-300 leading-relaxed mb-6">
                 As a penultimate year AI and Machine Learning student at{' '}
-                <span className="text-[#04CEFB] font-semibold">VIT, located in Mumbai</span>, India's{' '}
+                <span className="text-[#04CEFB] font-semibold">VIT Bhopal University, located in Bhopal</span>, India's{' '}
                 <span className="text-[#04CEFB] font-semibold">City of Lakes</span>. While I maintain a high academic standing with a{' '}
-                <span className="text-[#04CEFB] font-semibold font-['Press_Start_2P'] text-base">9.08/10.0 CGPA</span>, I'm truly passionate about applying this knowledge to build tangible, solutions that solve real problem.
+                <span className="text-[#04CEFB] font-semibold font-['Press_Start_2P'] text-base"> 9.08/10.0 CGPA</span>, I'm truly passionate about applying this knowledge to build tangible, solutions that solve real problem.
               </p>
               <h3 className="font-['Press_Start_2P'] text-[#04CEFB] text-xl mb-6 mt-8">Area of Interest</h3>
               <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">

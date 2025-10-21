@@ -192,7 +192,7 @@ const Ascraa = () => {
               className="bg-white/5 backdrop-blur-sm border border-[#04CEFB]/30 rounded-2xl p-4 hover:border-[#04CEFB] transition-all duration-300"
             >
               <img
-                src="/assets/ascraa.png"
+                src="/assets/icon1.png"
                 alt="Ascraa UI"
                 className="w-full h-auto rounded-lg"
               />

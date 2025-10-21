@@ -191,7 +191,7 @@ const TweetAnalyzer = () => {
               className="bg-white/5 backdrop-blur-sm border border-[#04CEFB]/30 rounded-2xl p-4 hover:border-[#04CEFB] transition-all duration-300"
             >
               <img
-                src="/assets/tweet-analyzer.png"
+                src="/assets/icon2.png"
                 alt="Tweet Analyzer UI"
                 className="w-full h-auto rounded-lg"
               />

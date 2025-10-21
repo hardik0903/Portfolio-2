@@ -192,7 +192,7 @@ const RAGChatBot = () => {
               className="bg-white/5 backdrop-blur-sm border border-[#04CEFB]/30 rounded-2xl p-4 hover:border-[#04CEFB] transition-all duration-300"
             >
               <img
-                src="/assets/rag-chatbot.png"
+                src="/assets/icon3.png"
                 alt="RAG ChatBot UI"
                 className="w-full h-auto rounded-lg"
               />
